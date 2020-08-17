@@ -1,0 +1,370 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    width: 65%;
+}
+
+h1{
+    line-height: 1.8;
+}
+
+p {
+    line-height: 1.8;
+}
+
+ul {
+    position: relative;
+    left: 5%;
+}
+
+#introduction {
+    height: 100vh;
+    background-image: url(./mac-screen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#out-tro {
+    height: 100vh;
+    background-image: url(./drawing-paper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.intro-heading {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.intro-heading h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.row {
+    width: 65%;
+    margin: auto;
+}
+
+.quotes {
+    text-indent: 3rem;
+    color: #808080;
+}
+
+.technology-img {
+    width: 70%;
+    margin: auto;
+    transform: translateX(20%);
+    position: relative;
+}
+
+.technology-head {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.technology-head h1 {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.img-and-head {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.signup-form {
+    position: relative;
+    top: 20%;
+}
+
+.txt-box {
+    position: relative;
+    border-bottom: 1px solid #adadad;
+    width: 30%;
+    margin: 3% 0%;
+    left: 35%;
+    
+}
+
+input {
+    color: #000000;
+    border: none;
+    width: 70%;
+    outline: none;
+    background: none;
+    
+}
+
+.message {
+    position: relative;
+    top: 15%;
+}
+
+.message h3 {
+    text-align: center;
+}
+
+.txt-box input {
+    font-size: 1rem;
+    padding: 0% 0% 0% 2%;
+}
+
+button {
+    font-size: 1rem;
+    display: inline-block;
+    width: 30%;
+    padding: 1% 0%;
+    background: none;
+    /* background-color: #f5b971; */
+    border:1px solid #f5b971;
+    color: black;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    left: 35%;
+}
+
+button:hover {
+    transition: 0.5s;
+    font-size: 1rem;
+    display: inline-block;
+    width: 30%;
+    padding: 1% 0%;
+    background-color: #f5b971;
+    color: black;
+    border-radius: 5px;
+    transform: scale(1.05);
+    position: relative;
+    left: 35%;
+}
+
+.guidance {
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 350px) {
+
+    hr {
+        width: 90%;
+        margin: 5% auto;
+    }
+    
+    h1{
+        line-height: 1.8;
+    }
+    
+    p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    ul li {
+        font-size: 12px;
+    }
+
+    .intro-heading {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    .intro-heading h1 {
+        font-size: 32px;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .row {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .quotes {
+        text-indent: 1.5rem;
+        color: #808080;
+    }
+    
+    .technology-img {
+        width: 100%;
+        margin: auto;
+        transform: translateX(0%);
+        position: relative;
+    }
+    
+    .technology-head {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+    }
+    
+    .technology-head h1 {
+        font-size: 16px;
+        /* font-size: 32px; */
+        text-align: center;
+        background-color: #ffffff;
+    }
+
+    .the-sep-head {
+        margin-top: 24px;
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    .img-and-head {
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    .message {
+        position: relative;
+        top: 13%;
+    }
+
+    .login-form {
+        position: relative;
+        top: 13%;
+    }
+
+    .message h3 {
+        margin-top: 24px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .txt-box {
+        width: 60%;
+        left: 10%;
+        margin: 5%;
+    }
+
+    .txt-box input {
+        font-size: 16px;
+        padding: 0% 0% 1% 2%;
+    }
+
+    button {
+        font-size: 16px;
+        display: inline-block;
+        width: 30%;
+        padding: 1% 0%;
+        background: none;
+        /* background-color: #f5b971; */
+        border:1px solid #f5b971;
+        color: black;
+        border-radius: 5px;
+        position: relative;
+        left: 35%;
+        margin-top: 5%;
+    }
+    
+    button:hover {
+        transition: 0.5s;
+        font-size: 16px;
+        display: inline-block;
+        width: 30%;
+        padding: 1% 0%;
+        background-color: #f5b971;
+        color: black;
+        border-radius: 5px;
+        transform: scale(1.05);
+        position: relative;
+        left: 35%;
+        margin-top: 5%;
+    }
+
+}
+
+
+#form-container {
+    
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30%;
+}
+
+.login-body {
+
+    height: 100vh;
+    background-image: url(./drawing-paper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.login-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width: 350px) {
+    
+    .login-head {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 10%;
+        font-weight: 400;
+    }
+    
+
+    .txt-box {
+        width: 60%;
+        left: 10%;
+        margin: 8%;
+    }
+
+    button {
+        font-size: 16px;
+        display: inline-block;
+        width: 40%;
+        padding: 1% 0%;
+        background: none;
+        /* background-color: #f5b971; */
+        border:1px solid #f5b971;
+        color: black;
+        border-radius: 5px;
+        position: relative;
+        left: 30%;
+        margin-top: 5%;
+    }
+    
+    button:hover {
+        transition: 0.5s;
+        font-size: 16px;
+        display: inline-block;
+        width: 40%;
+        padding: 1% 0%;
+        background-color: #f5b971;
+        color: black;
+        border-radius: 5px;
+        transform: scale(1.05);
+        position: relative;
+        left: 30%;
+        margin-top: 5%;
+    }
+
+}
